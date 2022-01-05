@@ -6,6 +6,10 @@ body{
 
 h1{
 font-size: 50px;
+h2{
+
+    font-size: 60px;
+}
 
 }
 
@@ -22,7 +26,7 @@ font-size: 25px;
 
 }
 
-section{
+.flexible-container{
 
     display: flex;
     margin-bottom: 200px;
@@ -49,7 +53,7 @@ section{
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
-    color: white;
+    color: lightblue
     border-radius: 5px;
     font-weight: 700;
 }
@@ -74,13 +78,14 @@ width: 100%;
 }
 .winger1{
 
-    width: 100%;
+    width: 350%;
     display: flex;
     size: 500px
 }
 .width-adjustment{
 
     margin-left: 40%;
+    
 }
 
 .twitter-link{
@@ -88,8 +93,39 @@ width: 100%;
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
-    color: white
+    color: lightblue
     border-radius: 5px;
     font-weight: 700;
 
+}
+.players-signing{
+
+    box-shadow: 10px 10px 40px darkblue;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 30px;
+    border-radius: 6px;
+}
+.orange-color{
+color: orange;
+
+}
+.New-signing-area{
+
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+#Ansu-fati{
+
+    border-right: 6px;
+    border-image: linear-gradient(red,orange);
+    border-image-slice: 1;
+}
+
+footer p{
+
+    text-align: center;
 }
